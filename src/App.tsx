@@ -8,7 +8,6 @@ import Skills from './components/Skills'
 import Tools from './components/Tools'
 import Projects from './components/Projects'
 import Certifications from './components/Certifications'
-import Achievements from './components/Achievements'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { ScrollProgress, BackToTop } from './components/ScrollUtils'
@@ -49,7 +48,6 @@ export default function App() {
         <Tools />
         <Projects />
         <Certifications />
-        <Achievements />
         <Contact />
       </main>
       <Footer />

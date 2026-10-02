@@ -52,11 +52,6 @@ export default function Tools() {
           ))}
         </div>
 
-        <p className="mt-6 text-xs text-brand-muted">
-          Badges use each platform's brand color with a short monogram rather than official logo
-          artwork, since those are trademarked assets — swap in real SVG logo files here if you have
-          licensed access to them.
-        </p>
       </div>
     </section>
   )

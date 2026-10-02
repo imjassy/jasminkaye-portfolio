@@ -6,13 +6,13 @@ export const profile = {
   location: 'Manila, Philippines',
   // Fill these in with your real profile links — left blank since none were provided.
   linkedin: '',
-  github: '',
+  github: 'https://github.com/imjassy',
   resumeUrl: '#',
 }
 
 export const about = {
   paragraph:
-    "As an Software Engineer at Accenture, I am part of Observability Engineering, supporting monitoring across enterprise cloud workloads. With a strong interest in cloud and platform engineering, I am continually expanding my expertise in modern architectures, automation, and reliability practices.",
+    "As an Associate Software Engineer at Accenture, I am part of Observability Engineering, supporting monitoring across enterprise cloud workloads. With a strong interest in cloud and platform engineering, I am continually expanding my expertise in modern architectures, automation, and reliability practices.",
   stats: [
     { value: 1, label: 'Year at Accenture' },
     { value: 3, label: 'Platforms supported' },
@@ -169,31 +169,12 @@ export const certifications = [
 
 export const awards = [
   {
-    name: 'FY25 Q2 ATCP Cloud First Gantimpala Award',
+    name: 'FY25 ATCP Cloud First Gantimpala Award',
     note: 'Recognized for driving innovation and creating value through continuous improvement initiatives that positively impact people, clients, and communities.',
   },
   {
     name: 'Security Elite Prestige',
     note: 'Achieved FY26 Secure Behavior Score (SBS) Elite Prestige status by maintaining a Top Notch security score throughout the fiscal year.',
-  },
-]
-
-export const achievements = [
-  {
-    title: 'Successful cloud migrations',
-    detail: 'Migrated Splunk Observability infrastructure to Datadog, consolidating monitoring tooling across the platform.',
-  },
-  {
-    title: 'Monitoring platform implementations',
-    detail: 'Delivered dashboards, custom metrics, and alerting across multiple Datadog onboarding projects.',
-  },
-  {
-    title: 'Knowledge transfer sessions',
-    detail: 'Part of certifying new observability products and features, including build, testing, and knowledge transfer before production rollout.',
-  },
-  {
-    title: 'Process automation initiatives',
-    detail: 'Built a PowerShell automation playbook for Splunk Observability validation, and standardized monitoring deployments with Terraform modules.',
   },
 ]
 
