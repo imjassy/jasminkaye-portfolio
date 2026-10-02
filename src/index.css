@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: theme('fontFamily.sans');
+}
+
+h1, h2, h3 {
+  font-family: theme('fontFamily.head');
+}
+
+::selection {
+  background: #2E0AC2;
+  color: #fff;
+}
+
+/* light mode overrides (class="light" on <html>) */
+html.light body {
+  background-color: #FFFFFF;
+  color: #0B0C0E;
+}
+html.light .bg-brand-dark { background-color: #FFFFFF !important; }
+html.light .text-white { color: #0B0C0E !important; }
+html.light .border-brand-line { border-color: #E4E4EA !important; }
+html.light .bg-brand-panel { background-color: #F5F5F8 !important; }
+html.light .text-brand-muted { color: #5B5F68 !important; }
